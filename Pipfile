@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+seaborn = "*"
+numpy = "*"
+click = "*"
+"e1839a8" = {path = ".", editable = true}
+
+[dev-packages]
+pylint = "*"
+mypy = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+draw = "python overtime_drawer/overtime_drawer_main.py"
+draw_example = "python overtime_drawer/overtime_drawer_main.py example/overtime.csv dist/"
