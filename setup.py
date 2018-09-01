@@ -5,7 +5,7 @@ packages = [
 ]
 
 setup(name='overtime_drawer',
-      version='1.0.0',
+      version='1.1.0',
       description='残業時間を描画する',
       author='Shuhei Tsunoda',
       author_email='tsunoda_shuhei_dev@outlook.jp',

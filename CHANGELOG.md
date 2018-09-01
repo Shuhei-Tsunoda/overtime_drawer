@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [1.1.0] - 2018-09-01
+### Added
+- ライセンスファイルを追加。
+
 ## [1.0.0] - 2018-09-01
 ### Added
 - 例のためのcsvファイルを追加。
